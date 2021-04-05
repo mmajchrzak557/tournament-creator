@@ -29,3 +29,6 @@ And these are the bread and butter of the app:
   <img src="/readme_assets/table_demo.gif" width="300"/>
   <img src="/readme_assets/bracket_demo.gif" width="300" /> 
 </p>
+
+<h1>The code</h1>
+The code is not super interesting, because the app is pretty simple. One nice thing is how polymorphism is used to make adding new tournament types easier. To create a new tournament one needs only to create 2 classes: one extending _**Tournament**_ and second extending _**TournamentView**_. Saving and loading will be taken care off without almost any changes to the code. There is still a lot of refactoring to do, especially in _**BracketView**_ class (seriously, don't try reading it), but also in other places. The visuals also need some work. One thing that looks really bad is the main screen, when there are no saved tournaments. Once these problems are solved I'll try to post this app to the Play Store.
