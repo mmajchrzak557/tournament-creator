@@ -15,7 +15,7 @@ This project was created with 3 main goals in mind:
 This is how the boring layouts look:
 
 
-<p float="left" align="center">
+<p float="left" align="center" style="margin-top:10px;">
   <img src="/readme_assets/main.jpg" width="250"/>
   <img src="/readme_assets/tournament_creation_dialog.jpg" width="250" /> 
   <img src="/readme_assets/changing_players.jpg" width="250" />
